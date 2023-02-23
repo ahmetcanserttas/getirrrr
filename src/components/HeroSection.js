@@ -16,19 +16,19 @@ export default function HeroSection() {
     };
 
   return (
-    <div className="relative before:bg-gradient-to-r before:from-purple-500 before:to-transparent before:absolute before:inset-0">
+    <div className=''>
         <Slider {...settings}>
           <div>
-            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/13/1366/500" alt=""/>
+            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/13/1366/500" alt=''/>
           </div> 
           <div>
-            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/14/1366/500" alt=""/>
+            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/14/1366/500"alt=''/> 
           </div>
           <div>
-            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/15/1366/500" alt=""/>
+            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/15/1366/500" alt=''/>
           </div>
           <div>
-            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/16/1366/500" alt=""/>
+            <img className="w-full h-[500px] object-cover" src="https://picsum.photos/id/16/1366/500"alt=''/>
           </div>
         </Slider>
     </div>  
